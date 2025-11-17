@@ -9,7 +9,7 @@ public class ControladorInventario {
      private BaseDeDatos baseDatos;
     private DirectorioVista vista;
 
-    public ControladorInventario(BaseDeDatos baseDatos, InventarioVista vista) {
+    public ControladorInventario(BaseDeDatos baseDatos, DirectorioVista vista) {
         this.baseDatos = baseDatos;
         this.vista = vista;
     }
