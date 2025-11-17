@@ -3,11 +3,11 @@ package controlador;
 
 import modelo.BaseDeDatos;
 import modelo.Producto;
-import vista.InventarioVista;
+import vista.DirectorioVista;
 
 public class ControladorInventario {
      private BaseDeDatos baseDatos;
-    private InventarioVista vista;
+    private DirectorioVista vista;
 
     public ControladorInventario(BaseDeDatos baseDatos, InventarioVista vista) {
         this.baseDatos = baseDatos;
