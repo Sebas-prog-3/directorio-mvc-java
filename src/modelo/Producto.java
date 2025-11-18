@@ -7,6 +7,7 @@ public class Producto {
     private String sku;
     private int cantidad;
     private double precio;
+     private String color;
     
     
 
